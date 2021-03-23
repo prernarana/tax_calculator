@@ -1,15 +1,20 @@
-# Getting Started Tax Calculator App
+# Tax Calculator App
 
 Tax Calculator App calculates the amount of taxes owed by inputting a yearly salary, then displaying the different rates, the total amount owed and the effective tax rates.
 Follow the below steps to run the App.
 
-#### Go to tax-calculator folder and run the following commands
 
+## Instructions
+* Download or clone the repository
+* Go to "tax_calculator" directory
+* Run the following commands
 
 ```bash
 npm install
 npm start
 ```
+## Details
+
 ###  `npm install`
 Installs the dependencies to run the App.
 
