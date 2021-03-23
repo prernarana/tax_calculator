@@ -116,7 +116,7 @@ class TaxCalculator extends React.PureComponent {
                                 <div className="input-group-prepend">
                                     <span className="input-group-text" id="">Salary (CAD)</span>
                                 </div>
-                                <input id="salary" type="number" className="form-control" aria-label="Salary Details" aria-describedby="basic-addon2" min="0" onChange={(e) => this.setSalary(e)} value={this.state.salary} required />
+                                <input id="salary" type="number" className="form-control" aria-label="Salary Details" aria-describedby="basic-addon2" min="0" onChange={(e) => this.setSalary(e)} value={this.state.salary} />
                                 <div className="input-group-append">
                                     <button className="btn btn-outline-secondary" type="button" onClick={this.calculateTax}>Calculate Tax</button>
                                 </div>
